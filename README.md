@@ -11,6 +11,7 @@ Whenever you add a new module to a configuration, Terraform must install the mod
 - `aws s3 cp modules/aws-s3-static-website-bucket/www/ s3://$(terraform output -raw website_bucket_name)/ --recursive`
 - Visit `https://sompol-bucket-20220125.s3-ap-southeast-1.amazonaws.com/index.html`
 
+<img width="703" alt="Nothing" src="https://user-images.githubusercontent.com/33342822/151012272-1c726cde-bf82-47e0-a7e9-e8b8892347f5.png">
 
 ### Reference
 https://learn.hashicorp.com/tutorials/terraform/module-create?in=terraform/modules
